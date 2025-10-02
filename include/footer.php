@@ -91,7 +91,7 @@
             <div class="max-w-screen-xl mx-auto px-4 py-6">
                 <div class="flex flex-col md:flex-row justify-between items-center">
                     <div class="text-gray-300 text-sm mb-4 md:mb-0">
-                        &copy; 2024 NVTI Baddegama. All rights reserved.
+                        &copy; 2025 NVTI Baddegama. All rights reserved.
                     </div>
                     <div class="flex space-x-6">
                         <a href="#" class="text-gray-300 hover:text-white text-sm transition duration-300">Privacy Policy</a>
