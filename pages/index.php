@@ -1,6 +1,6 @@
 <?php 
 // Use correct relative paths
-include __DIR__ . '/../includes/header.php'; 
+include __DIR__ . '/../include/header.php'; 
 ?>
 
 <main class="min-h-screen bg-gray-50">
@@ -25,4 +25,4 @@ include __DIR__ . '/../includes/header.php';
     </div>
 </main>
 
-<?php include __DIR__ . '/../includes/footer.php'; ?>
+<?php include __DIR__ . '/../include/footer.php'; ?>
