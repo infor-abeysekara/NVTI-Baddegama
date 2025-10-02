@@ -38,11 +38,11 @@
                 <div>
                     <h3 class="text-lg font-semibold mb-4 text-white border-b-2 border-primary pb-2">Quick Links</h3>
                     <ul class="space-y-2">
-                        <li><a href="index.php" class="text-gray-300 hover:text-white transition duration-300 text-sm">Home</a></li>
-                        <li><a href="about.php" class="text-gray-300 hover:text-white transition duration-300 text-sm">About Us</a></li>
-                        <li><a href="courses.php" class="text-gray-300 hover:text-white transition duration-300 text-sm">Our Courses</a></li>
-                        <li><a href="gallery.php" class="text-gray-300 hover:text-white transition duration-300 text-sm">Gallery</a></li>
-                        <li><a href="contact.php" class="text-gray-300 hover:text-white transition duration-300 text-sm">Contact</a></li>
+                        <li><a href="../pages/index.php" class="text-gray-300 hover:text-white transition duration-300 text-sm">Home</a></li>
+                        <li><a href="../pages/about.php" class="text-gray-300 hover:text-white transition duration-300 text-sm">About Us</a></li>
+                        <li><a href="../pages/courses.php" class="text-gray-300 hover:text-white transition duration-300 text-sm">Our Courses</a></li>
+                        <li><a href="../pages/gallery.php" class="text-gray-300 hover:text-white transition duration-300 text-sm">Gallery</a></li>
+                        <li><a href="../pages/contact.php" class="text-gray-300 hover:text-white transition duration-300 text-sm">Contact</a></li>
                     </ul>
                 </div>
 

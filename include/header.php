@@ -52,13 +52,13 @@
             <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
                 <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
                     <li>
-                        <a href="index.php" class="block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:border-0 md:hover:text-gray-300 md:p-0 transition duration-300">Home</a>
+                        <a href="../pages/index.php" class="block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:border-0 md:hover:text-gray-300 md:p-0 transition duration-300">Home</a>
                     </li>
                     <li>
-                        <a href="about.php" class="block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:border-0 md:hover:text-gray-300 md:p-0 transition duration-300">About</a>
+                        <a href="../pages/about.php" class="block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:border-0 md:hover:text-gray-300 md:p-0 transition duration-300">About</a>
                     </li>
                     <li>
-                        <a href="contact.php" class="block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:border-0 md:hover:text-gray-300 md:p-0 transition duration-300">Contact</a>
+                        <a href="../pages/contact.php" class="block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:border-0 md:hover:text-gray-300 md:p-0 transition duration-300">Contact</a>
                     </li>
                     
                     <!-- Courses Dropdown -->
@@ -89,10 +89,10 @@
                     </li>
                     
                     <li>
-                        <a href="gallery.php" class="block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:border-0 md:hover:text-gray-300 md:p-0 transition duration-300">Gallery</a>
+                        <a href="../pages/gallery.php" class="block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:border-0 md:hover:text-gray-300 md:p-0 transition duration-300">Gallery</a>
                     </li>
                     <li>
-                        <a href="register.php" class="block py-2 px-3 text-white bg-black rounded hover:bg-gray-800 md:hover:bg-gray-900 md:border-0 md:p-0 transition duration-300 md:ml-2">
+                        <a href="../pages/register.php" class="block py-2 px-3 text-white bg-black rounded hover:bg-gray-800 md:hover:bg-gray-900 md:border-0 md:p-0 transition duration-300 md:ml-2">
                             Register
                         </a>
                     </li>
