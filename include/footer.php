@@ -7,9 +7,7 @@
                 <!-- Column 1: Logo and Description -->
                 <div class="lg:col-span-1">
                     <div class="flex items-center mb-4">
-                        <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center mr-3">
-                            <span class="text-primary font-bold text-xl">NVTI</span>
-                        </div>
+                        <img src="../images/logo/NVTI_logo.png" class="h-8" alt="NVTI Baddegama Logo" />
                         <span class="text-xl font-bold text-white">Baddegama</span>
                     </div>
                     <p class="text-gray-300 mb-4 text-sm">
