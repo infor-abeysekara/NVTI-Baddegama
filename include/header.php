@@ -12,71 +12,13 @@
     
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
     
-    <style>
-        .nav-bg {
-            background-color: #7c1c20;
-        }
-
-        .nav-hover-border {
-            padding: 8px 12px;
-            border: 2px solid transparent;
-            transition: border-color 0.3s ease, color 0.3s ease, background-color 0.3s ease;
-        }
-
-        .nav-hover-border:hover {
-            background-color: transparent !important;
-            border-color: white;
-            color: white !important;
-        }
-
-        .register-cta:hover {
-            background-color: #7c1c20 !important;
-        }
-
-        @media (min-width: 768px) {
-            .nav-link-desktop {
-                padding: 0 0;
-            }
-
-            .nav-link-desktop:hover {
-                padding: 2px 4px;
-            }
-
-            .nav-hover-border.md\:p-0 {
-                padding: 8px 12px;
-            }
-
-            .nav-link-with-border:hover,
-            .register-cta:hover {
-                padding: 6px 10px !important;
-                border-radius: 0.5rem;
-            }
-        }
-
-        /* Existing color definitions */
-        .text-primary {
-            color: #7c1c20;
-        }
-
-        .bg-primary {
-            background-color: #7c1c20;
-        }
-
-        .border-primary {
-            border-color: #7c1c20;
-        }
-
-        .hover-primary:hover {
-            background-color: #7c1c20;
-            color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
     <nav class="nav-bg border-gray-200 sticky top-0 z-50 shadow-lg">
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="index.php" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <div class="max-w-screen-xl width-full flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="../pages/index.php" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src="../images/logo/NVTI_logo.png" class="h-8" alt="NVTI Baddegama Logo" />
                 <span
                     class="self-center text-2xl font-semibold whitespace-nowrap text-white">Baddegama</span>
@@ -153,7 +95,6 @@
                         </li>
                     <li>
                         
-                        <!-- UPDATED: Default style is bg-white text-primary. Added register-cta class for unique hover. -->
                         <a href="../pages/register.php"
                             class="block py-2 px-3 rounded bg-white text-primary nav-hover-border nav-link-with-border md:border-0 md:p-0 transition duration-300 md:ml-2 register-cta">
                             Register

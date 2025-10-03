@@ -1,28 +1,32 @@
-<?php 
-// Use correct relative paths
-include __DIR__ . '/../include/header.php'; 
-?>
+<?php include_once ('../include/header.php'); ?>
 
-<main class="min-h-screen bg-gray-50">
-    <div class="max-w-4xl mx-auto py-12 px-4">
-        <h1 class="text-4xl font-bold text-center text-gray-800 mb-8">Welcome to NVTI Baddegama</h1>
-        <p class="text-lg text-gray-600 text-center mb-12">
-            Your gateway to quality vocational education and skill development.
-        </p>
-        
-        <!-- Sample content to test scrolling -->
-        <div class="space-y-8">
-            <?php for($i = 1; $i <= 10; $i++): ?>
-            <div class="bg-white p-6 rounded-lg shadow-md">
-                <h2 class="text-2xl font-semibold text-primary mb-4">Section <?php echo $i; ?></h2>
-                <p class="text-gray-700">
-                    This is sample content to demonstrate the sticky navbar functionality. 
-                    Scroll down to see how the navbar remains fixed at the top of the page.
-                </p>
-            </div>
-            <?php endfor; ?>
-        </div>
+<main class="relative h-screen w-screen overflow-hidden">
+
+    <div class="main_video">
+        <video 
+            autoplay 
+            muted 
+            loop 
+            playsinline 
+            class="absolute inset-0 h-full w-full object-cover z-0"
+            style="filter: blur(4px);" 
+        >
+            <source src="../images/video/nvti_main.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     </div>
+
+    <div class="relative z-10 flex h-full w-full flex-col items-center justify-center bg-black bg-opacity-40 p-4"> 
+        
+        <h1 class="text-6xl md:text-8xl font-extrabold text-white text-center leading-none tracking-wider uppercase mb-4 font-serif">
+            WELCOME TO <br> NVTI BADDEGAMA 
+        </h1>
+        
+        <h4 class="text-xl md:text-3xl font-medium text-center mt-4 tracking-wider text-white font-serif" style="text-shadow: 0 0 5px #000000;">
+            A step toward a skilled life
+        </h4>
+    </div>
+
 </main>
 
-<?php include __DIR__ . '/../include/footer.php'; ?>
+<?php include_once ('../include/footer.php'); ?>
