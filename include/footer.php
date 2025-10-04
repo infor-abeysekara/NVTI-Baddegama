@@ -56,7 +56,7 @@
                     <li><a href="../pages/gallery.php"
                             class="text-gray-300 hover:text-white transition duration-300 text-sm">Gallery</a></li>
                     <li><a href="../pages/contact.php"
-                            class="text-gray-300 hover:text-white transition duration-300 text-sm">Contact</a></li>
+                            class="text-gray-300 hover:text-white transition duration-300 text-sm">Staff</a></li>
                 </ul>
             </div>
 

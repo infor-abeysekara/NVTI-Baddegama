@@ -13,6 +13,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
     
     <link rel="stylesheet" href="../css/style.css">
+
+    <script src="../js/staff_script.js"></script>
 </head>
 
 <body>
@@ -49,8 +51,8 @@
                             class="block py-2 px-3 text-white rounded nav-hover-border nav-link-with-border md:p-0 transition duration-300">About</a>
                         </li>
                     <li>
-                        <a href="../pages/contact.php"
-                            class="block py-2 px-3 text-white rounded nav-hover-border nav-link-with-border md:p-0 transition duration-300">Contact</a>
+                        <a href="../pages/staff.php"
+                            class="block py-2 px-3 text-white rounded nav-hover-border nav-link-with-border md:p-0 transition duration-300">Staff</a>
                         </li>
                     
                     <li>
