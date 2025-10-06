@@ -8,7 +8,7 @@
         <!-- Header Section -->
         <header class="text-center mb-10">
             <h1 class="text-5xl font-extrabold text-gray-900 mb-2">
-                Meet Our Team
+                Meet Our Staff
             </h1>
             <p class="text-lg text-gray-600">Find the experts you need to connect with.</p>
         </header>
